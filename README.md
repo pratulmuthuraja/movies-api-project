@@ -46,3 +46,9 @@ This is a personal project I am undertaking as a refresher course to solidify Fu
      - Spring Boot DevTools
    - Click generate.
 9. Extract the downloded zip file and move it to the project folder.
+10. Open Project in your IDE and open MoviesApplication.java. This is your main file you will be working on.
+11. If you are using an IDE you can simply use run to run the project or if you are like me and use NeoVim or similar text editors follow the instructions:
+    - Navigate to the src folder in your shell
+    - Run the following command `./mvnw spring-boot:run`
+    - Go to localhost:8080 on your web browser. You will probably find a Whitelabel Error Page but that is okay because we don't have any endpoints yet.
+12.
