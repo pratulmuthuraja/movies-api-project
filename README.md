@@ -53,4 +53,7 @@ This is a personal project I am undertaking as a refresher course to solidify Fu
     - Go to localhost:8080 on your web browser. You will probably find a Whitelabel Error Page but that is okay because we don't have any endpoints yet.
 12. Connect the database:
     - Open src/main/resources/application.properties
-    -
+    - Store environment variables in .env file and add me.paulschwarz spring-dotenv dependency to pom.xml file.
+    - You will now be able to connect through environment variables instead of the credentials.
+    - Dont forget to add .env to your .gitignore.
+13.
