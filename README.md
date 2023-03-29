@@ -51,4 +51,6 @@ This is a personal project I am undertaking as a refresher course to solidify Fu
     - Navigate to the src folder in your shell
     - Run the following command `./mvnw spring-boot:run`
     - Go to localhost:8080 on your web browser. You will probably find a Whitelabel Error Page but that is okay because we don't have any endpoints yet.
-12.
+12. Connect the database:
+    - Open src/main/resources/application.properties
+    -
