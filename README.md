@@ -56,4 +56,5 @@ This is a personal project I am undertaking as a refresher course to solidify Fu
     - Store environment variables in .env file and add me.paulschwarz spring-dotenv dependency to pom.xml file.
     - You will now be able to connect through environment variables instead of the credentials.
     - Dont forget to add .env to your .gitignore.
-13.
+13. Add Movie.java, MovieController.java, MovieRepository.java, MoviesApplication.java, MovieService.java, Review.java.
+    - Controller uses a service class to get data from the data layer and send it to the application layer to display information.
